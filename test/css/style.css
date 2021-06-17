@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #333333;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    border-bottom: 3px solid red;
+}
+
+.menu {
+    padding: 0;
+}
+
+.menu .navbar-toggler {
+    margin: 10px;
+}
+
+.menu-main {
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu-main .icon-home {
+    color: rgba(0, 0, 0, .5);
+}
+
+.menu-main #navbarDropdown {
+    display: grid;
+    padding: 0;
+}
+
+.menu-main .nav-item {
+    padding: 10px;
+    border: 1px solid rgb(0 0 0 / 3%);
+}
+
+.menu-main .nav-item.active {
+    background-color: #fff;
+    color: #dc3545;
+}
+
+.menu-main .nav-item.active a, .menu-main .nav-item.active i {
+    color: #dc3545;
+}
+
+.menu-main #navbarDropdown::after {
+    display: none;
+}
+
+.sticky-menu {
+    align-items: center;
+    justify-content: center;
+}
+
+.sticky-menu .list-group-item {
+    padding: 0;
+    margin: 27px 37px 28px 0;
+    border: none;
+}
+
+.sticky-menu .list-group-item a {
+    color: #333333;
+    font-size: 16px;
+}
+
+.kp {
+    margin: auto 0;
+}
+
+.kp button {
+    float: right;
+}
+
+.hot-deals {
+    padding-top: 24.28px;
+    padding-bottom: 45px;
+    background-color: #FAFAFA;
+}
+
+.endow-title {
+    font-size: 32px;
+    line-height: 45px;
+    margin-left: 10px;
+}
+
+.endow-sub {
+    color: #000000;
+    margin: 16px 0;
+}
+
+.card-hot .card-body {
+    background: #EC1C24;
+}
+
+.card {
+    border: 0;
+}
+
+.card-img-top {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.card-title {
+    font-family: 'Work Sans', sans-serif;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+.card-hot .card-title {
+    color: #FAFAFA;
+}
+
+.card-hot .card-text {
+    color: #FFFFFF;
+}
+
+.card-hot .card-more {
+    display: flex;
+    align-items: center;
+}
+
+.card-hot .hr-card {
+    width: 204px;
+    height: 1px;
+    border-color: #FFFFFF;
+    margin-left: 0;
+    margin-right: 17.89px;
+}
+
+.card-hot .icon {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.card-hot .text-muted {
+    font-size: 15px;
+    color: #FFFFFF !important;
+    padding-left: 5px;
+}
+
+.partner-offers {
+    padding-top: 33px;
+    padding-bottom: 57px;
+}
+
+.partner-offers .card-body {
+    padding: 14px 0;
+}
+
+.partner-offers .icon-tabs {
+    width: 42px;
+    height: 42px;
+    margin-right: 27px;
+}
+
+.partner-offers .card-img-top {
+    position: relative;
+    border-radius: 6px;
+}
+
+.partner-offers .card-img-top .topright {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* background-image: url(../images/bg-red.png); */
+    background: url(../images/vien.png) right bottom no-repeat, url(../images/bg-red.png) left top repeat;
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+    padding: 3px 10px 30px 45px;
+    color: #FFFFFF;
+}
+
+.partner-offers .card-img-top .topright .desc {
+    font-size: 11px;
+    letter-spacing: 0.03em;
+}
+
+.partner-offers .card-img-top .topright .price {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.partner-offers .card-img-top .topright .unit {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.partner-offers .card-img-top img {
+    width: 100%;
+    height: auto;
+}
+
+.partner-offers .nav-pills .nav-link {
+    color: #606060
+}
+
+.partner-offers .nav-pills .nav-link.active {
+    background-color: #fff;
+    color: #EC1C24;
+    font-weight: 700;
+}
+
+.partner-offers .tab-content {
+    margin-top: 42px;
+}
+
+.partner-offers .tab-content .number-found strong {
+    color: #EC1C24;
+}
+
+.partner-offers .tab-pane {
+    margin-top: 10px;
+}
+
+.partner-offers .card-title {
+    color: #ED2327;
+}
+
+.partner-offers .more {
+    color: #1E1D1C;
+}
+
+.installment .img-right {
+    width: 14px;
+    height: 18px;
+}
+
+.installment {
+    padding-top: 42px;
+    padding-bottom: 38px;
+    background: #FAFAFA;
+}
+
+.installment .list-group-item {
+    border: 0;
+    padding-left: 0;
+    background: none;
+}
+
+.installment .text-list {
+    width: 85px;
+    height: 50px;
+}
+
+.installment .text-list--with {
+    width: 140px;
+}
+
+.installment .text-sub {
+    padding: 32px 0 26px 0;
+}
+
+.installment .search {
+    display: flex;
+    border: 1px solid #BEBEBE;
+    border-radius: 4px;
+}
+
+.installment .search input {
+    margin-right: 0 !important;
+    border: none;
+}
+
+.installment .card-img-top {
+    padding: 27px 38px 22px 37px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 8%);
+    border-radius: 6px;
+}
+
+.installment .card-body {
+    padding-left: 0;
+}
+
+.installment .card-text {
+    text-align: left;
+}
+
+@media (min-width: 1200px) {
+    .card-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .card-hot .card-body {
+        padding: 20px 11px 36px 33px;
+    }
+    .card-hot .card-title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .card-hot .card-text {
+        width: 206px;
+    }
+    .installment .img-right {
+        width: 14px;
+        height: 18px;
+        margin-left: 22px;
+        margin-right: 29px;
+    }
+    .installment .list-group-item {
+        display: flex;
+        align-items: center;
+    }
+}
